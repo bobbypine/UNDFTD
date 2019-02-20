@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 def keysearch(key):
     headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64)  AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'}
 
-    url = 'https://www.undefeated.com/sitemap_products_1.xml'
+    url = 'https://undefeated.com/sitemap_products_1.xml?from=11308390095&to=2080888356937'
 
     r = requests.get(url=url, headers=headers)
 
